@@ -27,16 +27,19 @@ final class HealthKitClientLive: HealthKitClient {
 
         // только бег
         let running = HKQuery.predicateForWorkouts(with: .running)
-
-        // опционально: только после даты (для инкрементального синка)
-        let datePredicate: NSPredicate
+        
+        var predicates = [running]
         if let date {
-            datePredicate = HKQuery.predicateForSamples(withStart: date, end: nil, options: .strictStartDate)
-        } else {
-            datePredicate = NSPredicate(value: true)
+            let datePredicate = HKQuery.predicateForSamples(withStart: date, end: nil, options: .strictStartDate)
+            predicates.append(datePredicate)
         }
-
-        let predicate = NSCompoundPredicate(andPredicateWithSubpredicates: [running, datePredicate])
+        
+        let predicate: NSPredicate
+        if predicates.count == 1 {
+            predicate = predicates[0]
+        } else {
+            predicate = NSCompoundPredicate(andPredicateWithSubpredicates: predicates)
+        }
 
         // сортируем от новых к старым
         let sort = NSSortDescriptor(key: HKSampleSortIdentifierStartDate, ascending: false)
