@@ -6,6 +6,24 @@
 //
 
 import SwiftUI
+import SwiftData
+
+@main
+struct RunningCompanionApp: App {
+    private let container: ModelContainer = ModelContainerFactory.make()
+
+    var body: some Scene {
+        WindowGroup {
+            RootView()
+        }
+        .modelContainer(container)
+    }
+}
+
+
+//-----
+/*
+import SwiftUI
 
 @main
 struct RunningCompanionApp: App {
@@ -15,3 +33,4 @@ struct RunningCompanionApp: App {
         }
     }
 }
+*/

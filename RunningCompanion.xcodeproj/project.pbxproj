@@ -6,17 +6,53 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DAE7A6B22F13E487007341FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE7A6AE2F13E487007341FB /* Assets.xcassets */; };
+		DAE7A6B42F13E487007341FB /* RunningCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6B02F13E487007341FB /* RunningCompanionApp.swift */; };
+		DAE7A6C52F13E6C2007341FB /* RunEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6C42F13E6C2007341FB /* RunEntity.swift */; };
+		DAE7A6C72F13E71D007341FB /* ModelContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6C62F13E71D007341FB /* ModelContainerFactory.swift */; };
+		DAE7A6C92F13E785007341FB /* HealthKitClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6C82F13E785007341FB /* HealthKitClient.swift */; };
+		DAE7A6CB2F13E7AC007341FB /* HealthKitClientLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6CA2F13E7AC007341FB /* HealthKitClientLive.swift */; };
+		DAE7A6CD2F13E927007341FB /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6CC2F13E927007341FB /* RootView.swift */; };
+		DAE7A6D02F13E9EE007341FB /* RunsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6CF2F13E9EE007341FB /* RunsRepository.swift */; };
+		DAE7A6D32F13EA3A007341FB /* PaceFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6D22F13EA3A007341FB /* PaceFormatter.swift */; };
+		DAE7A6D52F13EA71007341FB /* RunsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6D42F13EA71007341FB /* RunsListViewModel.swift */; };
+		DAE7A6D72F13EA92007341FB /* RunsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6D62F13EA92007341FB /* RunsListView.swift */; };
+		DAE7A6D92F13EAC8007341FB /* RunDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6D82F13EAC8007341FB /* RunDetailsView.swift */; };
+		DAE7A6DC2F13ED4C007341FB /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6DB2F13ED4C007341FB /* DashboardViewModel.swift */; };
+		DAE7A6DE2F13ED72007341FB /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6DD2F13ED72007341FB /* DashboardView.swift */; };
+		DAE7A6E02F13EDCA007341FB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6DF2F13EDCA007341FB /* SettingsView.swift */; };
+		DAE7A6E22F13EDF0007341FB /* MetricCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6E12F13EDF0007341FB /* MetricCard.swift */; };
+		DAE7A6E42F13EE0F007341FB /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6E32F13EE0F007341FB /* EmptyStateView.swift */; };
+		DAE7A6E62F13EE4F007341FB /* MetricsCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6E52F13EE4F007341FB /* MetricsCalculator.swift */; };
+		DAE7A6E82F13EE83007341FB /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A6E72F13EE83007341FB /* Run.swift */; };
+		DAE7A6EA2F13F392007341FB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DAE7A6E92F13F392007341FB /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		DAE7A6A02F13DF8A007341FB /* RunningCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunningCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE7A6AE2F13E487007341FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAE7A6B02F13E487007341FB /* RunningCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningCompanionApp.swift; sourceTree = "<group>"; };
+		DAE7A6C42F13E6C2007341FB /* RunEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunEntity.swift; sourceTree = "<group>"; };
+		DAE7A6C62F13E71D007341FB /* ModelContainerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelContainerFactory.swift; sourceTree = "<group>"; };
+		DAE7A6C82F13E785007341FB /* HealthKitClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitClient.swift; sourceTree = "<group>"; };
+		DAE7A6CA2F13E7AC007341FB /* HealthKitClientLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitClientLive.swift; sourceTree = "<group>"; };
+		DAE7A6CC2F13E927007341FB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		DAE7A6CF2F13E9EE007341FB /* RunsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunsRepository.swift; sourceTree = "<group>"; };
+		DAE7A6D22F13EA3A007341FB /* PaceFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaceFormatter.swift; sourceTree = "<group>"; };
+		DAE7A6D42F13EA71007341FB /* RunsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunsListViewModel.swift; sourceTree = "<group>"; };
+		DAE7A6D62F13EA92007341FB /* RunsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunsListView.swift; sourceTree = "<group>"; };
+		DAE7A6D82F13EAC8007341FB /* RunDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunDetailsView.swift; sourceTree = "<group>"; };
+		DAE7A6DA2F13EB5B007341FB /* RunningCompanion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RunningCompanion.entitlements; sourceTree = "<group>"; };
+		DAE7A6DB2F13ED4C007341FB /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		DAE7A6DD2F13ED72007341FB /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		DAE7A6DF2F13EDCA007341FB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DAE7A6E12F13EDF0007341FB /* MetricCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCard.swift; sourceTree = "<group>"; };
+		DAE7A6E32F13EE0F007341FB /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		DAE7A6E52F13EE4F007341FB /* MetricsCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsCalculator.swift; sourceTree = "<group>"; };
+		DAE7A6E72F13EE83007341FB /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		DAE7A6E92F13F392007341FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		DAE7A6A22F13DF8A007341FB /* RunningCompanion */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RunningCompanion;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DAE7A69D2F13DF8A007341FB /* Frameworks */ = {
@@ -32,7 +68,7 @@
 		DAE7A6972F13DF8A007341FB = {
 			isa = PBXGroup;
 			children = (
-				DAE7A6A22F13DF8A007341FB /* RunningCompanion */,
+				DAE7A6B12F13E487007341FB /* RunningCompanion */,
 				DAE7A6A12F13DF8A007341FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +79,170 @@
 				DAE7A6A02F13DF8A007341FB /* RunningCompanion.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DAE7A6B12F13E487007341FB /* RunningCompanion */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6DA2F13EB5B007341FB /* RunningCompanion.entitlements */,
+				DAE7A6C22F13E63E007341FB /* UI */,
+				DAE7A6BD2F13E5F6007341FB /* Features */,
+				DAE7A6BA2F13E570007341FB /* Domain */,
+				DAE7A6B62F13E4BD007341FB /* Data */,
+				DAE7A6B52F13E48E007341FB /* App */,
+				DAE7A6AE2F13E487007341FB /* Assets.xcassets */,
+			);
+			path = RunningCompanion;
+			sourceTree = "<group>";
+		};
+		DAE7A6B52F13E48E007341FB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6B02F13E487007341FB /* RunningCompanionApp.swift */,
+				DAE7A6CC2F13E927007341FB /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DAE7A6B62F13E4BD007341FB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6B72F13E505007341FB /* SwiftData */,
+				DAE7A6CE2F13E9D5007341FB /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DAE7A6B72F13E505007341FB /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6C62F13E71D007341FB /* ModelContainerFactory.swift */,
+				DAE7A6B82F13E523007341FB /* Models */,
+				DAE7A6B92F13E53A007341FB /* HealthKit */,
+			);
+			path = SwiftData;
+			sourceTree = "<group>";
+		};
+		DAE7A6B82F13E523007341FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6C42F13E6C2007341FB /* RunEntity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DAE7A6B92F13E53A007341FB /* HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6C82F13E785007341FB /* HealthKitClient.swift */,
+				DAE7A6CA2F13E7AC007341FB /* HealthKitClientLive.swift */,
+			);
+			path = HealthKit;
+			sourceTree = "<group>";
+		};
+		DAE7A6BA2F13E570007341FB /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6D12F13EA1A007341FB /* Formatting */,
+				DAE7A6BC2F13E5AA007341FB /* Services */,
+				DAE7A6BB2F13E58D007341FB /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		DAE7A6BB2F13E58D007341FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6E72F13EE83007341FB /* Run.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DAE7A6BC2F13E5AA007341FB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6E52F13EE4F007341FB /* MetricsCalculator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DAE7A6BD2F13E5F6007341FB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6C12F13E628007341FB /* Settings */,
+				DAE7A6C02F13E61D007341FB /* RunDetails */,
+				DAE7A6BF2F13E612007341FB /* Runs */,
+				DAE7A6BE2F13E608007341FB /* Dashboard */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		DAE7A6BE2F13E608007341FB /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6DB2F13ED4C007341FB /* DashboardViewModel.swift */,
+				DAE7A6DD2F13ED72007341FB /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		DAE7A6BF2F13E612007341FB /* Runs */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6D42F13EA71007341FB /* RunsListViewModel.swift */,
+				DAE7A6D62F13EA92007341FB /* RunsListView.swift */,
+				DAE7A6E92F13F392007341FB /* README.md */,
+			);
+			path = Runs;
+			sourceTree = "<group>";
+		};
+		DAE7A6C02F13E61D007341FB /* RunDetails */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6D82F13EAC8007341FB /* RunDetailsView.swift */,
+			);
+			path = RunDetails;
+			sourceTree = "<group>";
+		};
+		DAE7A6C12F13E628007341FB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6DF2F13EDCA007341FB /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		DAE7A6C22F13E63E007341FB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6C32F13E64C007341FB /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DAE7A6C32F13E64C007341FB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6E12F13EDF0007341FB /* MetricCard.swift */,
+				DAE7A6E32F13EE0F007341FB /* EmptyStateView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DAE7A6CE2F13E9D5007341FB /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6CF2F13E9EE007341FB /* RunsRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		DAE7A6D12F13EA1A007341FB /* Formatting */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7A6D22F13EA3A007341FB /* PaceFormatter.swift */,
+			);
+			path = Formatting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +259,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				DAE7A6A22F13DF8A007341FB /* RunningCompanion */,
 			);
 			name = RunningCompanion;
 			packageProductDependencies = (
@@ -109,6 +306,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE7A6EA2F13F392007341FB /* README.md in Resources */,
+				DAE7A6B22F13E487007341FB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +318,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE7A6E02F13EDCA007341FB /* SettingsView.swift in Sources */,
+				DAE7A6C92F13E785007341FB /* HealthKitClient.swift in Sources */,
+				DAE7A6C52F13E6C2007341FB /* RunEntity.swift in Sources */,
+				DAE7A6DE2F13ED72007341FB /* DashboardView.swift in Sources */,
+				DAE7A6E42F13EE0F007341FB /* EmptyStateView.swift in Sources */,
+				DAE7A6D72F13EA92007341FB /* RunsListView.swift in Sources */,
+				DAE7A6CB2F13E7AC007341FB /* HealthKitClientLive.swift in Sources */,
+				DAE7A6D52F13EA71007341FB /* RunsListViewModel.swift in Sources */,
+				DAE7A6CD2F13E927007341FB /* RootView.swift in Sources */,
+				DAE7A6E22F13EDF0007341FB /* MetricCard.swift in Sources */,
+				DAE7A6E62F13EE4F007341FB /* MetricsCalculator.swift in Sources */,
+				DAE7A6D32F13EA3A007341FB /* PaceFormatter.swift in Sources */,
+				DAE7A6C72F13E71D007341FB /* ModelContainerFactory.swift in Sources */,
+				DAE7A6D92F13EAC8007341FB /* RunDetailsView.swift in Sources */,
+				DAE7A6DC2F13ED4C007341FB /* DashboardViewModel.swift in Sources */,
+				DAE7A6B42F13E487007341FB /* RunningCompanionApp.swift in Sources */,
+				DAE7A6E82F13EE83007341FB /* Run.swift in Sources */,
+				DAE7A6D02F13E9EE007341FB /* RunsRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,11 +468,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RunningCompanion/RunningCompanion.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7TQLZFHBG5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Приложение читает ваши пробежки из HealthKit, чтобы показывать статистику и прогресс.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -283,11 +502,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RunningCompanion/RunningCompanion.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7TQLZFHBG5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Приложение читает ваши пробежки из HealthKit, чтобы показывать статистику и прогресс.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
